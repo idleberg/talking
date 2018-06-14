@@ -12,11 +12,11 @@ Package One provides a service -- a function that can log the string "A Thing!" 
 
 ### Package 1
 
-"Package1.js" contains a function called `ProvidePackage1()` that returns a function or an object, and Package One's `package.json` file registers `ProvidePackage1()` as a provided service in a `providedServices` field. (The `versions` subfield is so you don't break services as you update your package: you can introduce new functions for new versions while still providing the older versions' services.)
+`package1.js` contains a function called `ProvidePackage1()` that returns a function or an object, and Package One's `package.json` file registers `ProvidePackage1()` as a provided service in a `providedServices` field. (The `versions` subfield is so you don't break services as you update your package: you can introduce new functions for new versions while still providing the older versions' services.)
 
 ### Package 2
 
-"Package2.js" contains a function called `ConsumePackage1()` that receives and binds the provided function or object. Package Two's `package.json` registers this function in a `consumedServices` field. (You have a versions subfield here, too, to consume a specific version of a provided service.)
+`package2.js` contains a function called `ConsumePackage1()` that receives and binds the provided function or object. Package Two's `package.json` registers this function in a `consumedServices` field. (You have a versions subfield here, too, to consume a specific version of a provided service.)
 
 ## Instructions for Studying This Repo
 
