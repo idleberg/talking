@@ -1,0 +1,23 @@
+{
+  "name": "package1",
+  "main": "./lib/package1",
+  "version": "0.0.0",
+  "description": "provides a service to package2",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/package1",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "providedServices": {
+    "package-one": {
+      "description": "Log \"A Thing!\" to the console",
+      "versions": {
+        "0.0.0": "providePackage1"
+      }
+    }
+  }
+}

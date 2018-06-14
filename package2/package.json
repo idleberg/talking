@@ -1,0 +1,23 @@
+{
+  "name": "package2",
+  "main": "./lib/package2",
+  "version": "0.0.0",
+  "description": "consumes a service provided by package1",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/package2",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "consumedServices": {
+    "package-one": {
+      "description": "Log \"A Thing!\" to the console",
+      "versions": {
+        "0.0.0": "consumePackage1"
+      }
+    }
+  }
+}
