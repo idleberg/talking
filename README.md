@@ -6,7 +6,7 @@ It would be nice if your Atom package might call some code in another Atom packa
 
 ## The Deal
 
-Package One provides a service -- a function that can log the string "A Thing!" to the console -- and Package Two consumes this service.
+Package One provides a service -- a function that can log the string "A Thing!" to the console -- and Package Two consumes this service, which newly enables Package Two to call the string-logging function in Package One.
 
 ## The Code
 
