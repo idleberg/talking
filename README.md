@@ -20,4 +20,4 @@ Package One provides a service -- a function that can log the string "A Thing!" 
 
 ## Instructions for Studying This Repo
 
-Fire up Atom with the repo's two packages loaded -- call `apm link package1 package2` from your local repo clone to load these packages on Atom startup -- and open Atom. `ctrl+alt+l` will log a string from package1, while `ctrl+alt+L` will use package one's provided service to log the same string via package two.
+Fire up Atom with the repo's two packages loaded -- call `apm link package1 package2` from your local repo clone to load these packages on Atom startup -- and open Atom. `ctrl+alt+l` will log a string from package1, while `ctrl+alt+L` will use package one's provided service to log the same string via package two. `option+cmd+i` will open your developer console and show you the logged strings, as well as which lines in the codebase logged them.
